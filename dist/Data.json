@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "/appimage/taskmaster.png",
+    "title": "TaskMaster",
+    "companyName": "Prodify Inc.",
+    "description": "A powerful task management app to organize your daily activities.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/appimage/filipcart.png",
+    "title": "FitTrack",
+    "companyName": "HealthSoft",
+    "description": "Track your workouts and monitor your progress easily.",
+    "size": 60,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/appimage/foodie.png",
+    "title": "Foodie",
+    "companyName": "EatWell Ltd.",
+    "description": "Discover recipes, restaurants, and track your meals effortlessly.",
+    "size": 80,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/appimage/budaget.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinTech Solutions",
+    "description": "Manage your finances and track your expenses easily.",
+    "size": 55,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/appimage/travelmate.png",
+    "title": "TravelMate",
+    "companyName": "Wanderlust Co.",
+    "description": "Plan your trips, book hotels, and explore new destinations.",
+    "size": 120,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/appimage/notle.png",
+    "title": "NoteIt",
+    "companyName": "QuickApps",
+    "description": "Take notes, organize ideas, and stay productive.",
+    "size": 30,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/appimage/photo.png",
+    "title": "PhotoMagic",
+    "companyName": "PixelPerfect",
+    "description": "Edit photos, add effects, and create stunning visuals.",
+    "size": 95,
+    "reviews": 2200,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/appimage/weather.png",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "description": "Get accurate weather forecasts in real-time for any location.",
+    "size": 35,
+    "reviews": 650,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 335 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/appimage/Mindralax.png",
+    "title": "MindRelax",
+    "companyName": "ZenLabs",
+    "description": "Meditation and mindfulness app to reduce stress.",
+    "size": 50,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/appimage/shopeasy.png",
+    "title": "ShopEasy",
+    "companyName": "RetailHub",
+    "description": "Shop your favorite products and get fast delivery.",
+    "size": 70,
+    "reviews": 1700,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/appimage/learnlang.png",
+    "title": "LearnLang",
+    "companyName": "EduTech",
+    "description": "Learn new languages interactively with daily lessons.",
+    "size": 65,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/appimage/musicvibe.png",
+    "title": "MusicVibes",
+    "companyName": "SoundWave",
+    "description": "Stream music, create playlists, and enjoy high-quality audio.",
+    "size": 85,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/appimage/helthyfacts.png",
+    "title": "HealthyEats",
+    "companyName": "NutriSoft",
+    "description": "Track your nutrition and find healthy meal options.",
+    "size": 55,
+    "reviews": 780,
+    "ratingAvg": 4.3,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/appimage/quickfit.png",
+    "title": "QuickFit",
+    "companyName": "GymTech",
+    "description": "Personalized fitness plans and workout tracking.",
+    "size": 60,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 395 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/appimage/gamezone.png",
+    "title": "GameZone",
+    "companyName": "FunApps",
+    "description": "Play hundreds of mini-games and challenges.",
+    "size": 110,
+    "reviews": 2500,
+    "ratingAvg": 4.6,
+    "downloads": 160000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1510 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/appimage/readify.png",
+    "title": "Readify",
+    "companyName": "BookWorld",
+    "description": "Access thousands of books and track your reading progress.",
+    "size": 75,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/appimage/travlexplore.png",
+    "title": "TravelExplorer",
+    "companyName": "WanderTech",
+    "description": "Discover new destinations and share travel experiences.",
+    "size": 100,
+    "reviews": 1400,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 675 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "/appimage/photsnap.png",
+    "title": "PhotoSnap",
+    "companyName": "PixelLab",
+    "description": "Capture, edit, and share beautiful photos.",
+    "size": 90,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1375 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "/appimage/newsflash.png",
+    "title": "NewsFlash",
+    "companyName": "MediaCorp",
+    "description": "Stay updated with the latest news and events worldwide.",
+    "size": 50,
+    "reviews": 1000,
+    "ratingAvg": 4.3,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 505 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "/appimage/madimate.png",
+    "title": "MeditateNow",
+    "companyName": "ZenTech",
+    "description": "Guided meditation and mindfulness exercises.",
+    "size": 60,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 605 }
+    ]
+  }
+]
