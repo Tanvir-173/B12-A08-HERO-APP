@@ -1,6 +1,10 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLoaderData, useNavigate } from "react-router";
 import Loading from "../loading/Loading";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faFaceSadTear } from "@fortawesome/free-regular-svg-icons";
 
 const AllApps = () => {
   const loaderData = useLoaderData(); // data from loader
@@ -23,7 +27,7 @@ const AllApps = () => {
     // Simulate a small delay for loading animation
     setTimeout(() => {
       setIsSearching(false);
-    }, 700);
+    }, 2000);
   };
 
   return (
@@ -54,11 +58,12 @@ const AllApps = () => {
       {/* Loading Animation */}
       {isSearching ? (
         <div className="flex justify-center items-center py-10">
-          <p>Loadig....</p>
+          {/* <p>Loadig...</p> */}
+          <Loading></Loading>
         </div>
       ) : filteredApps.length === 0 ? (
         <p className="text-center text-gray-500 text-lg font-medium">
-          No App Found 😕
+          No App Found <FontAwesomeIcon icon={faFaceSadTear} />
         </p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -78,9 +83,9 @@ const AllApps = () => {
                   {app.title}
                 </h3>
                 <p className="text-gray-500 text-sm">
-                  📥 {app.downloads} downloads
+                  <FontAwesomeIcon icon={faDownload} />{app.downloads} downloads
                 </p>
-                <p className="text-yellow-500 text-sm">⭐ {app.ratingAvg}</p>
+                <p className="text-yellow-500 text-sm"><FontAwesomeIcon icon={faStar} />{app.ratingAvg}</p>
               </div>
             </div>
           ))}

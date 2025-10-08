@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFaceSadTear } from "@fortawesome/free-regular-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
@@ -53,7 +57,7 @@ const Installation = () => {
       </div>
 
       {sortedApps.length === 0 ? (
-        <p className="text-center text-gray-500 text-lg">No installed apps yet 😕</p>
+        <p className="text-center text-gray-500 text-lg">No installed apps yet <FontAwesomeIcon icon={faFaceSadTear} /></p>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {sortedApps.map((app) => (
@@ -65,7 +69,7 @@ const Installation = () => {
               <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">{app.title}</h3>
                 <p className="text-gray-500 text-sm mb-3">
-                  📥 {app.downloads.toLocaleString()} downloads
+                  <FontAwesomeIcon icon={faDownload} /> {app.downloads.toLocaleString()} downloads
                 </p>
                 <button
                   onClick={() => handleUninstall(app.id)}
@@ -81,7 +85,7 @@ const Installation = () => {
 
       {showToast && (
         <div className="fixed top-8 right-8 bg-red-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg">
-          ❌ App uninstalled successfully!
+          <FontAwesomeIcon icon={faXmark} />App uninstalled successfully!
         </div>
       )}
     </div>

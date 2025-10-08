@@ -13,7 +13,7 @@ import Loading from './componets/loading/Loading.jsx';
 import Installation from './componets/installation/Installation.jsx';
 
 
-const fetchCards = fetch("/Data.json").then(res => res.json())
+// const fetchCards = fetch("/Data.json").then(res => res.json())
 
 
 const router = createBrowserRouter([

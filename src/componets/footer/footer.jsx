@@ -1,9 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
-        <div>
-            <div className="footer flex flex-col md:flex-row items-center justify-around border-b border-gray-300 pb-4">
+        <div className="bg-blue-100">
+            <div className="footer flex flex-col md:flex-row items-center justify-around border-b border-gray-300 pb-4 ">
 
 
                 <div className="footer-brand  flex flex-col items-center">
@@ -27,9 +31,9 @@ const Footer = () => {
                     <h4>Follow Me</h4>
                     <div className="social-icons">
 
-                        <p>GitHub</p>
-                        <p>LinkedIn</p>
-                        <p>Twitter</p>
+                        <p><FontAwesomeIcon icon={faGithub} />GitHub</p>
+                        <p><FontAwesomeIcon icon={faLinkedin} />LinkedIn</p>
+                        <p><FontAwesomeIcon icon={faTwitter} />Twitter</p>
 
 
                     </div>

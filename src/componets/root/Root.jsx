@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Footer from '../footer/footer';
 import { Outlet, useNavigation } from 'react-router';
 import Loading from '../loading/Loading';
+import { Toaster } from "react-hot-toast";
 
 const Root = () => {
     const navigation=useNavigation()
@@ -12,6 +13,7 @@ const Root = () => {
     return (
         <div>
             {/* {isNavigating && <Loading/>} */}
+              <Toaster position="top-right" reverseOrder={false} />
             
               <Header></Header>
             

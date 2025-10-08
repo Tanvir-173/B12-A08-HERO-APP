@@ -1,6 +1,8 @@
 import React, { use } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Navigate,useLoaderData,useNavigate } from 'react-router';
-
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 // const fetchCards = async()=>{
 //     const res= await fetch("/Data.json")
 //     return res.json()
@@ -84,9 +86,10 @@ const Home = () => {
                                 {app.title}
                             </h3>
                             <p className="text-gray-600 text-sm">
+                                <FontAwesomeIcon icon={faDownload} />
                                 {app.downloads.toLocaleString()} downloads
                             </p>
-                            <p className="text-yellow-500 font-medium"> {app.ratingAvg}</p>
+                            <p className="text-yellow-500 font-medium"><FontAwesomeIcon icon={faStar} /> {app.ratingAvg}</p>
                         </div>
                     ))}
                 </div>
