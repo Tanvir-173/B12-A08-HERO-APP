@@ -1,13 +1,14 @@
 import React, { use } from 'react';
-import { Navigate,useNavigate } from 'react-router';
+import { Navigate,useLoaderData,useNavigate } from 'react-router';
 
 // const fetchCards = async()=>{
 //     const res= await fetch("/Data.json")
 //     return res.json()
 // }
-const Home = ({fetchCards}) => {
+const Home = () => {
      const navigate = useNavigate();
-     const Apps=use(fetchCards)
+    //  const Apps=use(fetchCards)
+        const Apps=useLoaderData()
      const topApps = Apps.slice(0, 8);
     return (
         <div className="banner">

@@ -10,6 +10,7 @@ import Appdetails from './componets/appdetails/Appdetails.jsx';
 import AllApps from './componets/Allaps/Allaps.jsx';
 import ErrorPage from './componets/ErrorPage/ErrorPage .jsx';
 import Loading from './componets/loading/Loading.jsx';
+import Installation from './componets/installation/Installation.jsx';
 
 
 const fetchCards = fetch("/Data.json").then(res => res.json())
@@ -22,7 +23,10 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Suspense fallback={<span>laodeing....</span>}><Home fetchCards={fetchCards}></Home></Suspense>
+        // element: <Suspense fallback={<span>laodeing....</span>}><Home fetchCards={fetchCards}></Home></Suspense>
+        loader: () => fetch("/Data.json"),
+        Component:Home
+
       },
       {
         path: 'app/:appId',
@@ -42,6 +46,10 @@ const router = createBrowserRouter([
         loader: () => fetch("/Data.json"),
         Component: AllApps
         // element: <Suspense fallback={<Loading/>}><AllApps fetchCards={fetchCards}></AllApps></Suspense>
+      },
+      {
+        path:'installation',
+        Component:Installation
       },
       {
         path: '*',

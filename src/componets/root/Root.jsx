@@ -7,6 +7,7 @@ import Loading from '../loading/Loading';
 const Root = () => {
     const navigation=useNavigation()
     const isNavigating=Boolean(navigation.location)
+    console.log(isNavigating)
     
     return (
         <div>
@@ -16,9 +17,9 @@ const Root = () => {
             
             
            <div>
-            {isNavigating && <Loading/>}
+            {isNavigating ? <Loading/>:
            
-            <Outlet></Outlet>
+            <Outlet></Outlet>}
              
            </div>
             
