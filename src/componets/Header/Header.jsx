@@ -3,6 +3,7 @@ import { NavLink } from 'react-router';
 import { Navigate } from 'react-router';
 import { useNavigate } from 'react-router';
 import './heder.css'
+import logo from "/src/assets/logo.png"
 
 const Header = () => {
     const navigate = useNavigate();
@@ -10,7 +11,7 @@ const Header = () => {
         <div className="header flex justify-around items-center">
 
             <div className="logo flex items-center gap-[10px]" onClick={() => navigate('/')}>
-                <img src="/src/assets/logo.png" alt="Logo" className="w-[70px] h-[70px]" />
+                <img src={logo} alt="Logo" className="w-[70px] h-[70px]" />
                 <h3 className="text-[25px] font-bold">HERO.IO</h3>
             </div>
 

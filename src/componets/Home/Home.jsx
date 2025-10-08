@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Navigate,useLoaderData,useNavigate } from 'react-router';
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
+import hero from "/src/assets/hero.png"
 // const fetchCards = async()=>{
 //     const res= await fetch("/Data.json")
 //     return res.json()
@@ -37,7 +38,7 @@ const Home = () => {
 
 
             <div className="banner-image flex items-center justify-center mt-[20px]">
-                <img src="/src/assets/hero.png"></img>
+                <img src={hero}></img>
             </div>
 
             <div className="states-section bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1))]">

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
+import error from "/src/assets/error.png";
 
 
 const ErrorPage = () => {
@@ -8,7 +9,7 @@ const ErrorPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-center p-5 bg-gray-100">
       <img
-        src="/src/assets/error-404.png"
+        src={error}
         alt="404 Error"
         className="w-72 mb-5"
       />

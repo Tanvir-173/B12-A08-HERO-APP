@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import logo from "/src/assets/logo.png"
 
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
 
 
                 <div className="footer-brand  flex flex-col items-center">
-                    <img src="/src/assets/logo.png" className="w-[40px] h-[40px]" />
+                    <img src={logo} className="w-[40px] h-[40px]" />
                     <p>Making web experiences beautiful & functional.</p>
                 </div>
 
