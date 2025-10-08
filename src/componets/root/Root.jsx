@@ -1,15 +1,30 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../footer/footer';
-import { Outlet } from 'react-router';
+import { Outlet, useNavigation } from 'react-router';
+import Loading from '../loading/Loading';
 
 const Root = () => {
+    const navigation=useNavigation()
+    const isNavigating=Boolean(navigation.location)
+    
     return (
         <div>
-            <Header></Header>
+            {/* {isNavigating && <Loading/>} */}
+            
+              <Header></Header>
+            
+            
+           <div>
+            {isNavigating && <Loading/>}
+           
             <Outlet></Outlet>
+             
+           </div>
+            
             <Footer></Footer>
         </div>
+        
     );
 };
 

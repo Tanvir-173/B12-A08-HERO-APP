@@ -7,6 +7,26 @@ const Appdetails = () => {
     const [isInstalled, setIsInstalled] = useState(false);
     const [showToast, setShowToast] = useState(false);
 
+    if (!app) {
+        return (
+            <div className="flex flex-col items-center justify-center min-h-[70vh] text-center">
+                <h1 className="text-5xl font-extrabold text-red-600 mb-4">
+                    App Not Found
+                </h1>
+                <p className="text-gray-600 text-lg mb-6">
+                    The app you’re looking for doesn’t exist or may have been removed.
+                </p>
+                <button
+                    onClick={() => window.history.back()}
+                    className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md transition"
+                >
+                    Go Back
+                </button>
+            </div>
+        );
+    }
+
+
     // Handle install button click
     const handleInstall = () => {
         setIsInstalled(true);

@@ -8,6 +8,8 @@ import Root from './componets/root/Root.jsx';
 import Home from './componets/Home/Home.jsx';
 import Appdetails from './componets/appdetails/Appdetails.jsx';
 import AllApps from './componets/Allaps/Allaps.jsx';
+import ErrorPage from './componets/ErrorPage/ErrorPage .jsx';
+import Loading from './componets/loading/Loading.jsx';
 
 
 const fetchCards = fetch("/Data.json").then(res => res.json())
@@ -20,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Suspense><Home fetchCards={fetchCards}></Home></Suspense>
+        element: <Suspense fallback={<span>laodeing....</span>}><Home fetchCards={fetchCards}></Home></Suspense>
       },
       {
         path: 'app/:appId',
@@ -30,14 +32,20 @@ const router = createBrowserRouter([
           const res = await fetch("/Data.json");
           const data = await res.json();
           const app = data.find((item) => item.id === parseInt(params.appId));
-          return app;
-        },
-        Component: Appdetails
+          return app || null
+         },
+        Component: Appdetails,
+        
       },
       {
-        path:'apps',
-        loader:()=>fetch("/Data.json"),
-        Component:AllApps
+        path: 'apps',
+        loader: () => fetch("/Data.json"),
+        Component: AllApps
+        // element: <Suspense fallback={<Loading/>}><AllApps fetchCards={fetchCards}></AllApps></Suspense>
+      },
+      {
+        path: '*',
+        Component: ErrorPage
       }
 
     ]
