@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/public/appimage/taskmaster.png",
+    "image": "/appimage/taskmaster.png",
     "title": "TaskMaster",
     "companyName": "Prodify Inc.",
     "description": "A powerful task management app to organize your daily activities.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/public/appimage/filipcart.png",
+    "image": "/appimage/filipcart.png",
     "title": "FitTrack",
     "companyName": "HealthSoft",
     "description": "Track your workouts and monitor your progress easily.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/public/appimage/foodie.png",
+    "image": "/appimage/foodie.png",
     "title": "Foodie",
     "companyName": "EatWell Ltd.",
     "description": "Discover recipes, restaurants, and track your meals effortlessly.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "/public/appimage/budaget.png",
+    "image": "/appimage/budaget.png",
     "title": "BudgetBuddy",
     "companyName": "FinTech Solutions",
     "description": "Manage your finances and track your expenses easily.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "/public/appimage/travelmate.png",
+    "image": "/appimage/travelmate.png",
     "title": "TravelMate",
     "companyName": "Wanderlust Co.",
     "description": "Plan your trips, book hotels, and explore new destinations.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "/public/appimage/notle.png",
+    "image": "/appimage/notle.png",
     "title": "NoteIt",
     "companyName": "QuickApps",
     "description": "Take notes, organize ideas, and stay productive.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "/public/appimage/photo.png",
+    "image": "/appimage/photo.png",
     "title": "PhotoMagic",
     "companyName": "PixelPerfect",
     "description": "Edit photos, add effects, and create stunning visuals.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "/public/appimage/weather.png",
+    "image": "/appimage/weather.png",
     "title": "WeatherNow",
     "companyName": "ClimateTech",
     "description": "Get accurate weather forecasts in real-time for any location.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "/public/appimage/Mindralax.png",
+    "image": "/appimage/Mindralax.png",
     "title": "MindRelax",
     "companyName": "ZenLabs",
     "description": "Meditation and mindfulness app to reduce stress.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "/public/appimage/shopeasy.png",
+    "image": "/appimage/shopeasy.png",
     "title": "ShopEasy",
     "companyName": "RetailHub",
     "description": "Shop your favorite products and get fast delivery.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "/public/appimage/learnlang.png",
+    "image": "/appimage/learnlang.png",
     "title": "LearnLang",
     "companyName": "EduTech",
     "description": "Learn new languages interactively with daily lessons.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "/public/appimage/musicvibe.png",
+    "image": "/appimage/musicvibe.png",
     "title": "MusicVibes",
     "companyName": "SoundWave",
     "description": "Stream music, create playlists, and enjoy high-quality audio.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/public/appimage/helthyfacts.png",
+    "image": "/appimage/helthyfacts.png",
     "title": "HealthyEats",
     "companyName": "NutriSoft",
     "description": "Track your nutrition and find healthy meal options.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "/public/appimage/quickfit.png",
+    "image": "/appimage/quickfit.png",
     "title": "QuickFit",
     "companyName": "GymTech",
     "description": "Personalized fitness plans and workout tracking.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "/public/appimage/gamezone.png",
+    "image": "/appimage/gamezone.png",
     "title": "GameZone",
     "companyName": "FunApps",
     "description": "Play hundreds of mini-games and challenges.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "/public/appimage/readify.png",
+    "image": "/appimage/readify.png",
     "title": "Readify",
     "companyName": "BookWorld",
     "description": "Access thousands of books and track your reading progress.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "/public/appimage/travlexplore.png",
+    "image": "/appimage/travlexplore.png",
     "title": "TravelExplorer",
     "companyName": "WanderTech",
     "description": "Discover new destinations and share travel experiences.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "/public/appimage/photsnap.png",
+    "image": "/appimage/photsnap.png",
     "title": "PhotoSnap",
     "companyName": "PixelLab",
     "description": "Capture, edit, and share beautiful photos.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "/public/appimage/newsflash.png",
+    "image": "/appimage/newsflash.png",
     "title": "NewsFlash",
     "companyName": "MediaCorp",
     "description": "Stay updated with the latest news and events worldwide.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "/public/appimage/madimate.png",
+    "image": "/appimage/madimate.png",
     "title": "MeditateNow",
     "companyName": "ZenTech",
     "description": "Guided meditation and mindfulness exercises.",
