@@ -1,4 +1,3 @@
-import React, { use } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Navigate,useLoaderData,useNavigate } from 'react-router';
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
