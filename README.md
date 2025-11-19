@@ -17,7 +17,7 @@ HERO.IO is a task management app designed for teams. Users can create, assign, a
 ## Tech Stack
 - **Frontend:** React  
 - **Backend:** Node.js, Express  
-- **Database:** MongoDB  
+- **LocalStorage
 
 ##  Main Features
 - Task CRUD (Create, Read, Update, Delete)  
@@ -27,12 +27,11 @@ HERO.IO is a task management app designed for teams. Users can create, assign, a
 
 ##  Dependencies
 - express  
-- mongoose  
 - react-router-dom  
 - axios  
 
 ##  Run Locally
 1. Clone the repository:
 ```bash
-git clone https://github.com/Tanvir-173/hero-io.git
+git clone https://github.com/Tanvir-173/B12-A08-HERO-APP
 cd hero-io
